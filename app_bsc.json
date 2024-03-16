@@ -1,0 +1,20 @@
+{
+  "apps": [
+    {
+      "name": "bsc-crawler",
+      "script": "dist/bin/bsc/BscCrawler.js",
+      "env": {
+        "TYPEORM_ENTITIES": "dist/bin/bsc/node_modules/wallet-core/src/entities/**/*",
+        "TYPEORM_LOGGING": "false"
+      }
+    },
+    {
+      "name": "bsc-job",
+      "script": "dist/bin/bsc/BscJobWorker.js",
+      "env": {
+        "TYPEORM_ENTITIES": "dist/bin/bsc/node_modules/wallet-core/src/entities/**/*",
+        "TYPEORM_LOGGING": "false"
+      }
+    }
+  ]
+}

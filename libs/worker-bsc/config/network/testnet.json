@@ -1,0 +1,7 @@
+{
+  "chainName": "BSC – Testnet",
+  "chainId": 97,
+  "averageBlockTime": 6000,
+  "requiredConfirmations": 15,
+  "explorerEndpoint": "https://testnet.bscscan.com/"
+}

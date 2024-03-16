@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "deployAliases": {
+    "config-test": {
+      "networkId": "testnet",
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/config-test.json",
+      "feepayerKeyPath": "/home/dong/.cache/zkapp-cli/keys/test-dong.json",
+      "feepayerAlias": "test-dong",
+      "fee": "0.5",
+      "smartContract": "Square"
+    }
+  }
+}

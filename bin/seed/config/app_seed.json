@@ -1,0 +1,178 @@
+{
+    "curreniesConfig": [
+        {
+            "chain": "bsc",
+            "network": "1",
+            "chain_id": "1",
+            "chain_name": "bsc",
+            "average_block_time": 15000,
+            "block_time": 15000,
+            "required_confirmations": 0,
+            "internal_endpoint": "http://localhost:47003",
+            "rpc_endpoint": "https://data-seed-prebsc-1-s1.binance.org:8545",
+            "rpc_endpoint_backups": "https://data-seed-prebsc-1-s1.binance.org:8545, https://data-seed-prebsc-1-s1.binance.org:8545",
+            "queue_name": "bsc",
+            "webhook_api": "http://localhost:9000/api/worker",
+            "created_at": 1589874286352,
+            "updated_at": 1589874286352
+        }
+    ],
+    "envsConfig": [
+        {
+            "key": "MAIL_FROM_ADDRESS",
+            "value": "noreply@sssss.com"
+        },
+        {
+            "key": "MAIL_FROM_NAME",
+            "value": "Wallet Support"
+        },
+        {
+            "key": "MAIL_PASSWORD",
+            "value": "piclqphxxhluqsil"
+        },
+        {
+            "key": "MAIL_RECIPIENT_COLD_WALLET_1",
+            "value": "ddddd@gmail.com"
+        },
+        {
+            "key": "MAIL_RECIPIENT_COLD_WALLET_2",
+            "value": "hang.nguyen@dddd.vn"
+        },
+        {
+            "key": "MAIL_RECIPIENT_COLD_WALLET_NUM",
+            "value": "2"
+        },
+        {
+            "key": "MAIL_RECIPIENT_ERROR_ALERT",
+            "value": "testdddd@gmail.com"
+        },
+        {
+            "key": "MAIL_USERNAME",
+            "value": "dddd.test@gmail.com"
+        },
+        {
+            "key": "MAILER_ACCOUNT",
+            "value": "ssss.test"
+        },
+        {
+            "key": "MAILER_HOST",
+            "value": "smtp.gmail.com"
+        },
+        {
+            "key": "MAILER_PASSWORD",
+            "value": "piclqphxxhluqsil"
+        },
+        {
+            "key": "MAILER_PORT",
+            "value": "465"
+        },
+        {
+            "key": "MAILER_RECEIVER",
+            "value": "dddddd@gmail.com"
+        },
+        {
+            "key": "NETWORK",
+            "value": "testnet"
+        },
+        {
+            "key": "REDIS_ENABLED",
+            "value": "true"
+        },
+        {
+            "key": "REDIS_HOST",
+            "value": "redis"
+        },
+        {
+            "key": "REDIS_PORT",
+            "value": "6379"
+        },
+        {
+            "key": "REDIS_URL",
+            "value": "redis://127.0.0.1:6379"
+        }
+    ],
+    "contracts": [
+        {
+            "contract_address": "0x9b69f521aEb5b407D5C2f3C7ddA4AA2e8Ef2b768",
+            "contract_type": "proxy",
+            "symbol": "symbol_1",
+            "decimal": 18,
+            "name": "exchange",
+            "network": "testnet",
+            "abi_key": "gohara_proxy",
+            "events": [
+                {
+                    "name": "BuyNFTEvent",
+                    "topic": "0xfcc0a406f3c53c5534608113a02932a0444bd9727ac65fd0d893c460802df7f4"
+                },
+                {
+                    "name": "CancelOrderEvent",
+                    "topic": "0xe996bed3510c57a0a07b2d3ed1b141be014e1702667e1cd2089bb2e6bc068e9b"
+                },
+                {
+                    "name": "MintNFTEvent",
+                    "topic": "0xbac557091693fc08b5497e152b0e0f5f4dab5a7726dadc4b7ff8fda36de79446"
+                },
+                {
+                    "name": "AdminMintEvent",
+                    "topic": "0x9d019a18fa2daf73eee60b82ac3cf58b44feada92f17a8d09365af0150fa1582"
+                },
+                {
+                    "name": "OwnershipTransferred",
+                    "topic": ""
+                },
+                {
+                    "name": "Transfer",
+                    "topic": ""
+                },
+                {
+                    "name": "SetSuperAdminEvent",
+                    "topic": "0x79fef6d41b57e964fc397ba9947d75a9237046e2bb379cbb2c6a7c96812beea9"
+                },
+                {
+                    "name": "SetSaleAdminEvent",
+                    "topic": "0x8a1f1fd1011b27730f183f16a1ff2a93e5d8d055dd51c9ac6ae7d94e7c74dc64"
+                },
+                {
+                    "name": "SetCreatorAdminEvent",
+                    "topic": "0x4b97744644dc023a55a27ac223aa6e5aba97ef4e6d3302e3dc0f57179a8ff257"
+                },
+                {
+                    "name": "PutUpForRentEvent",
+                    "topic": "0x89a10fc829a9d032249f9d714fede24c9345f329f44d33fe395400b77473cc76"
+                },
+                {
+                    "name":"RentNFTEvent",
+                    "topic":"0x149ba03041935ccce191370e242e7472e1f4ac4cce5a9ad24b82ea5d6d5ed051"
+                },
+                {
+                    "name":"CancelPutUpForRentEvent",
+                    "topic":"0x2d4b37c747d7b9a3071217ad1fe3d3a86e969b87d5b25715402b1f800e38211d"
+                },
+                {
+                    "name":"StakingEvent",
+                    "topic":"0x83eb2fce7dbb21aac65306ce74c262810755fd1443e383e88eb1a7861c1790df"
+                },
+                {
+                    "name":"PoolUpdated",
+                    "topic":"0x7d58ab0932258d188dafa34f80365e8828d7604dcd8f476feaccda2c328b44e0"
+                }
+            ]
+        },
+        {
+            "contract_address": "0xF9d827234ef3031276c74A025AdA365E176C2Fdf",
+            "contract_type": "token",
+            "symbol": "symbol_1",
+            "decimal": 18,
+            "name": "exchange",
+            "network": "testnet",
+            "abi_key": "erc721",
+            "events": [
+                {
+                    "name": "Transfer",
+                    "topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+                }
+            ]
+        }
+    ]
+}

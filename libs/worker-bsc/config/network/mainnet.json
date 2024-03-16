@@ -1,0 +1,7 @@
+{
+  "chainName": "Mainnet",
+  "chainId": 56,
+  "averageBlockTime": 3000,
+  "requiredConfirmations": 15,
+  "explorerEndpoint": "https://bscscan.com/"
+}

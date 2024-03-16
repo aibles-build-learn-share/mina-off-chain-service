@@ -1,0 +1,41 @@
+{
+  "name": "b2c-nft-mp-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/bin dist/libs && tsc",
+    "format": "prettier --write \"{bin,libs,test}/**/*.ts\"",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
+  },
+  "repository": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "13.9.0",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "brigde": "file:../03-deploying-to-a-live-network",
+    "eslint": "^7.20.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@taquito/rpc": "^11.1.0",
+    "bull": "^4.7.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "npm run lint",
+      "npm run format",
+      "git add ."
+    ]
+  }
+}
